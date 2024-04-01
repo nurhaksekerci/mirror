@@ -1,0 +1,428 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <title>Protem — Product Landing Page Template </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="{% static 'images/favicon.html' %}">
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+
+    <!-- ICONS -->
+    <link rel="stylesheet" href="{% static 'css/ilmosys-icon.css' %}">
+    <link rel="stylesheet" href="{% static 'css/icons/fontawesome/css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/icons/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/icons/icon2/style.css' %}">
+    <link rel="stylesheet" href="{% static 'js/vendors/swipebox/css/swipebox.min.css' %}">
+
+
+    <!-- THEME / PLUGIN CSS -->
+    <link rel="stylesheet" href="{% static 'js/vendors/slick/slick.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body id="home">
+    <div class="body">
+        <!-- HEADER -->
+        <header>
+            <nav class="navbar-inverse navbar-lg navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a href="index.html" class="navbar-brand brand"><img src="{% static 'images/logo.png' %}" alt="logo"></a>
+                    </div>
+
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right navbar-login">
+                            <li>
+                                <a href="" data-toggle="modal" data-target="#modalContactForm">Buy Now </a>
+                            </li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+
+
+                            
+
+                            <li class="dropdown mm-menu">
+                                <a class="page-scroll" style="color: white !important;" href="#about">About</a>
+                            </li>
+
+                            <li class="dropdown mm-menu">
+                                <a class="page-scroll" href="#feature">Feature</a>
+                            </li>
+
+                            <li class="dropdown mm-menu">
+                                <a class="page-scroll" href="#collection">Collection</a>
+                            </li>
+                            <li class="dropdown mm-menu">
+                                <a class="page-scroll" href="#faq">FAQ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Hero Header -->
+        <div class="intro intro1">
+            <div class="container">
+                <div class="row center-content">
+                    <div class="col-md-6">
+                        <h2>Perfect Matcher Mirror</h2>
+                        <p>Imagine a world where every morning starts with confidence, knowing you're stepping out in the perfect outfit. Introducing the Perfect Matcher Mirror (PMM) – your personal fashion assistant and the end of all bad outfit days. With advanced artificial intelligence, the PMM analyzes your wardrobe, taking into account the weather and your mood to recommend the ideal ensemble for your day.</p>
+                        <div class="space30"></div>
+                    </div>
+                    <br><br>
+                    <div class="col-sm-4 col-md-7">
+                        <img src="{% static 'images/products/saa.jpg' %}" style="max-height: 700px !important;" class="img-responsive" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ABOUT -->
+        <div id="about" class="container">
+            <div class="space100"></div>
+            <!-- INFO CONTENT -->
+            <div class="info-content">
+                <div class="container">
+                    <div class="row center-content">
+                        <div class="col-md-6">
+                            <h3>Production </h3>
+                            <img src="{% static 'images/line.png' %}" class="img-responsive" alt="" /><br>
+                            <p>When you choose PMM, you're not just ensuring that your outfit is flawless every single day. You're also casting a vote for the planet. Our team, affectionately known as  fairies for their meticulous and magical work, don't just craft these mirrors; they instill them with a deeper mission. With every mirror sold, a portion of the proceeds goes directly towards environmental conservation efforts.</p>
+                            <ul class="list">
+                                <li><i class="icon-check"></i> The magic from our fairies will keep nature strong.</li>
+                                <li><i class="icon-check"></i> You will have fabulous outfits according to the weather and your moods.</li>
+                            </ul>
+                            <div class="space30"></div>
+                        </div>
+                        <div class="col-md-6 text-center">
+                            <img src="{% static 'images/products/aaa.jpg' %}" style="max-width: 50%;" class="pull-right img-responsive" alt="">
+                            <img src="{% static 'images/products/aaa1.jpg' %}" style="max-width: 50%;" class="pull-right img-responsive" alt="">
+                                
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br><br>
+        </div>
+        <div class="space100"></div>
+
+        <!-- SERVICES -->
+        <section id="feature" class="services bg-light">
+            <div class="container">
+                <div class="about-inline text-center">
+                    <h3>Feature of The PMM </h3>
+                    <img src="{% static 'images/line.png' %}" class="img-responsive center-block" alt="" />
+                    <p>PMM is more than just a mirror. It has magical features which enables PMM to provide you perfect outfits for the day.</p>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <!-- Column -->
+                        <div class="col-md-6 Protem-feature">
+                            <div class="box-body d-flex">
+                                <div class="feature-icon"><i class="ilmosys-cloud-sun"></i></div>
+                                <div class="Protem-feature">
+                                    <a href="#">
+                                        <h3>Weather Option</h3>
+                                    </a>
+                                    <p>You can choose the weather! Thanks to this feature the software our mirror has checks whether your clothes are convenient for the weather or not. </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <!-- Column -->
+                            <div class="col-md-6 Protem-feature">
+                                <div class="box-body d-flex">
+                                    <div class="feature-icon"><i class="ilmosys-angel-smiley"></i></div>
+                                    <div class="Protem-feature">
+                                        <a href="#">
+                                            <h3>Mood option</h3>
+                                        </a>
+                                        <p>You can also choose your mood! Our mirrors are integrated with AI, it decides whether the outfit options are convenient for your mood or not.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                
+                                <div>
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PARALLAX -->
+        <section class="parallax-content text-center" data-stellar-background-ratio="0.4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10">
+                        <h1 style="font-size: 64px;">Mirror mirror on the wall tell me who is the fashionest of them all?</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- benifits 1 -->
+      
+
+
+        <!-- Collection -->
+        <div id="collection">
+            <div class="container">
+                <div class="about-inline text-center">
+                    <h3>Perfect Matcher Mirror</h3>
+                    <img src="{% static 'images/line.png' %}" class="img-responsive center-block" alt="" />
+                    <p>BEST PRODUCT YOU CAN EVER SPEND YOUR MONEY ON!</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                        <div class="card card-product">
+                            <div class="img-wrap"><img src="{% static 'images/products/saa.jpg' %}" alt="img"></div>
+                            <div class="product-info">
+                                <h4>Perfect Matcher Mirror Limited Edition</h4>
+                                <div class="star"> <img src="{% static 'images/bg/five-star.png' %}" alt="img"> </div>
+                                <div class="price-wrap h3">
+                                    <span class="price-new">$500</span>
+                                    
+                                    <a href="" class="btn btn-sm btn-default pull-right" data-toggle="modal" data-target="#modalContactForm">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4"></div>
+                </div>
+            </div>
+            <!-- Collection -->
+            
+            <div class="space100"></div>
+            <!-- review -->
+            
+            <div class="review products-review">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="review-text">
+                                <div>
+                                    <p>"This is the best thing I ever purchased. I'm going to buy one for my mom, too."
+                                    </p>
+                                    <img src="{% static 'images/bg/five-star.png' %}" alt="img">
+                                    <span class="author">Mina Burkhart <br> <small> Purchased. </small></span>
+                                </div>
+                                <div>
+                                    <p>"My wife used to take quite a long time to get ready but now she only takes a few hours."
+                                    </p>
+                                    <img src="{% static '/images/bg/five-star.png' %}" alt="img">
+                                    <span class="author">Tommy Wali <br> <small> Purchased. </small></span>
+                                </div>
+
+                                <div>
+                                    <p>"I just love the way fairies deliver the products!!!! Also this mirror is a life saver."
+                                    </p>
+                                    <img src="{% static 'images/bg/five-star.png' %}" alt="img">
+                                    <span class="author">Greab K. <br> <small> Purchased. </small></span>
+                                </div>
+                                <div>
+                                <p>"This mirror is a game changer! I'm a mother of 4 and they used to hate getting ready for school, but now with this magical mirror they love getting ready!!!"
+                                    </p>
+                                    <img src="{% static 'images/bg/five-star.png' %}" alt="img">
+                                    <span class="author">Kadij Y. <br> <small> Purchased. </small></span>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review-title col-md-12">
+                        <h1>REVIEW</h1>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="clearfix"></div>
+            <div class="space100"></div>
+            
+            <!-- FAQ -->
+            <div id="faq" class="bg-light">
+                <div class="container">
+                    <div class="about-inline text-center">
+                        <h3>Got questions?</h3>
+                        <img src="{% static 'images/line.png' %}" class="img-responsive center-block" alt="" />
+                        <p>Our fairies work 24/7 to answer your questions. Here's a list of questions we get asked often:</p>
+                    </div>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="{% static 'images/products/saa.jpg' %}" class="img-responsive  pull-left" style="height: 400px;" alt="" />
+                            </div>
+                            <div class="col-md-6">
+                                <div class="col-md-10 col-md-offset-1 elements-content">
+                                    <div class="clearfix"></div>
+                                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="headingOne">
+                                                <h4 class="panel-title">
+                                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									What is PMM?
+									</a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                                <div class="panel-body">
+                                                    </div> PMM is a magical mirror which enables you to choose your outfit daily. What makes this product special is it actually has technology and magic in it. This mirror will save your time and enery.
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="headingTwo">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+									How I get PMM?
+									</a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                                <div class="panel-body">
+                                                    You can find our product on this page. But be careful our product is limited, so you may not be able to buy one.</div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="headingThree">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+									How I connect PMM?
+									</a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                                <div class="panel-body">
+                                                   Our fairies work hard to make sure you are fully satisfied with your product. You can contact us by calling the mirror 'Mirror mirror on the wall where is the customer service and all?'</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                            </div>
+                        </div>
+                        <div class="space100"></div>
+                    </div>
+                </div>
+                <!-- FAQ -->
+
+                
+
+                <!-- COPYRIGHT -->
+                <div class="footer-copy">
+                    <div class="container">
+                        &copy; 2024. Perfect Matcher Mirror. All rights reserved.
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" data-toggle="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header text-center">
+
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                             <span aria-hidden="true">&times;</span></button>
+                            <div class="cf2-wrap">
+                                <h2>Make Your Order Now!</h2>
+                                <div class="clearfix space40"></div>
+                                <form class="positioned" name="sentMessage" id="contactForm" action="php/contact.php" method="post">
+                                    <div class="row">
+
+                                        <div class="col-md-6 col-sm-6">
+                                            <input name="senderName" id="senderName" placeholder="Your Name" required type="text">
+                                        </div>
+                                        <div class="col-md-6 col-sm-6">
+                                            <input name="senderEmail" id="senderEmail" placeholder="Email Address" required type="email">
+                                        </div>
+                                    </div>
+
+                                    <input name="address" id="address" placeholder="Address" required type="text">
+
+                                    <input placeholder="Zip Code" required type="number">
+
+                                    <input placeholder="Mobile No." required type="number">
+                                    <select name="name" id="select" required="required">
+                                     <option value=""> Protem Limited Edition - $175 </option>
+                                    <option value="1"> Protem Limited Edition - $188 </option>
+                                    <option value="2"> Protem Limited Edition - $199 </option>
+                                    </select>
+                                    <button type="submit" class="btn btn-primary btn-ico">Pre Order Now</button>
+                                </form>
+                                <div id="sendingMessage" class="statusMessage">
+                                    <p><i class="fa fa-spin fa-cog"></i> Sending your message. Please wait...</p>
+                                </div>
+                                <div id="successMessage" class="successmessage">
+                                    <p><span class="success-ico"></span> Thanks for sending your message! We'll get back to you shortly.</p>
+                                </div>
+                                <div id="failureMessage" class="errormessage">
+                                    <p><span class="error-ico"></span> There was a problem sending your message. Please try again.</p>
+                                </div>
+                                <div id="incompleteMessage" class="statusMessage">
+                                    <p><i class="fa fa-warning"></i> Please complete all the fields in the form before sending.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- JAVASCRIPT =============================-->
+        <script src="{% static 'js/jquery.js' %}"></script>
+        <script src="{% static 'js/bootstrap.min.js' %}"></script>
+        <script src="{% static 'js/vendors/slick/slick.min.js' %}"></script>
+        <script src="{% static 'js/vendors/jquery.easing.min.js' %}"></script>
+        <script src="{% static 'js/vendors/stellar.js' %}"></script>
+        <script src="{% static 'js/vendors/isotope/isotope.pkgd.js' %}"></script>
+        <script src="{% static 'js/vendors/swipebox/js/jquery.swipebox.min.js' %}"></script>
+        <script src="{% static 'js/main.js' %}"></script>
+        <script src="{% static 'js/vendors/mc/jquery.ketchup.all.min.js' %}"></script>
+        <script src="{% static 'js/vendors/mc/main.js' %}"></script>
+        <script src="{% static 'js/vendors/contact.js' %}"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+        <script src="{% static 'js/vendors/gmap.js' %}"></script>
+
+</body>
+
+</html>
